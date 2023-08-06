@@ -9,15 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a223df69-b700-47ea-aa39-026b202fca15" name="Changes" comment="Added task week3 part2_2">
-      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part2_2_foobar/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part2_2_foobar/src/main/java/kg/neobis/Foobar.java" afterDir="false" />
+    <list default="true" id="a223df69-b700-47ea-aa39-026b202fca15" name="Changes" comment="Completed task week3 part2_2">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part2_1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part2_1/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,18 +36,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "history": [
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
     {
-      "state": "MERGED",
-      "author": "KamchybekAl"
+      &quot;state&quot;: &quot;MERGED&quot;,
+      &quot;author&quot;: &quot;KamchybekAl&quot;
     }
   ],
-  "lastFilter": {
-    "state": "MERGED",
-    "author": "KamchybekAl"
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;MERGED&quot;,
+    &quot;author&quot;: &quot;KamchybekAl&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -59,6 +55,9 @@
         <option name="url" value="https://github.com/KamchybekAl/neobis_week3.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -80,6 +79,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -103,6 +106,9 @@
     "ChangesTree.GroupingKeys": [
       "directory",
       "module"
+    ],
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
 }]]></component>
@@ -115,6 +121,15 @@
     <option name="myCommands">
       <command value="mvn clean" />
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Part3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="part3" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="kg.neobis.part3.Part3Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -155,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691344550664</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Completed task week3 part2_2">
+      <created>1691349746821</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691349746821</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,7 +201,8 @@
     <MESSAGE value="Delete task week3 part2_2" />
     <MESSAGE value="Фввув task week3 part2_2" />
     <MESSAGE value="Added task week3 part2_2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added task week3 part2_2" />
+    <MESSAGE value="Completed task week3 part2_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed task week3 part2_2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
