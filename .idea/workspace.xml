@@ -9,13 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a223df69-b700-47ea-aa39-026b202fca15" name="Changes" comment="Added task week3 part3">
-      <change afterPath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/model/Basket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part3/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part3/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/part3/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="a223df69-b700-47ea-aa39-026b202fca15" name="Changes" comment="Week3 part3 added entity and creat DB with tables with connections">
+      <change afterPath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/repository/CategoryRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/repository/OrderRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/repository/BasketRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/repository/BasketRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/repository/ProductRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/repository/ProductRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/repository/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/repository/UserRepo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +25,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -189,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691350737169</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Week3 part3 added entity and creat DB with tables with connections">
+      <created>1691352927090</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1691352927090</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +222,8 @@
     <MESSAGE value="Added task week3 part2_2" />
     <MESSAGE value="Completed task week3 part2_2" />
     <MESSAGE value="Added task week3 part3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added task week3 part3" />
+    <MESSAGE value="Week3 part3 added entity and creat DB with tables with connections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week3 part3 added entity and creat DB with tables with connections" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
