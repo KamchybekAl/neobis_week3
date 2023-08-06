@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="part2_1:jar" />
-      <artifact name="part2_2_foobar:jar" />
+      <artifact name="part2_2:jar" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -11,8 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a223df69-b700-47ea-aa39-026b202fca15" name="Changes" comment="Added task week3 part2_2">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/part2_2_foobar_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part2_2_foobar/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2_2_foobar/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2_2_foobar/src/main/java/kg/neobis/Foobar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part2_1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part2_1/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +93,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/user/IdeaProjects/neobisWeek3/part2_2_foobar/src/main/java/kg/neobis/Main.java",
-    "project.structure.last.edited": "Artifacts",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.29885057",
     "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
@@ -120,7 +125,7 @@
       <option name="presentableId" value="Default" />
       <updated>1691310836570</updated>
       <workItem from="1691310837596" duration="7405000" />
-      <workItem from="1691346564061" duration="2933000" />
+      <workItem from="1691346564061" duration="2005000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1691310980300</created>
@@ -150,21 +155,7 @@
       <option name="project" value="LOCAL" />
       <updated>1691344550664</updated>
     </task>
-    <task id="LOCAL-00005" summary="Added task week3 part2_2">
-      <created>1691348683899</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1691348683899</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Added task week3 part2_2">
-      <created>1691348700368</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1691348700368</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
