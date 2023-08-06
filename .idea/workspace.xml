@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="part2_1:jar" />
+      <artifact name="part2_2:jar" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a223df69-b700-47ea-aa39-026b202fca15" name="Changes" comment="Completed task week3 part2_1 (helloworld.jar )">
-      <change afterPath="$PROJECT_DIR$/part2_2/pom.xml" afterDir="false" />
+    <list default="true" id="a223df69-b700-47ea-aa39-026b202fca15" name="Changes" comment="Added task week3 part2_2">
+      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2_2_foobar/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part2_2_foobar/src/main/java/kg/neobis/Foobar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part2_1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part2_1/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +40,35 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "history": [
+    {
+      "state": "MERGED",
+      "author": "KamchybekAl"
+    }
+  ],
+  "lastFilter": {
+    "state": "MERGED",
+    "author": "KamchybekAl"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="b1b1e53a-7bef-4a5d-a14f-3a38fe9f4967" />
+        <option name="url" value="https://github.com/KamchybekAl/neobis_week3.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="jdkForImporter" value="11" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2TbTZZIxyuM1OqmzghvlWmK8E91" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -54,16 +84,19 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
     "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/Users/user/IdeaProjects/neobis_19",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "onboarding.tips.debug.path": "C:/Users/user/IdeaProjects/neobisWeek3/part2_2/src/main/java/kg/neobis/Main.java",
-    "project.structure.last.edited": "Artifacts",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/user/IdeaProjects/neobisWeek3/part2_2_foobar/src/main/java/kg/neobis/Main.java",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.29885057",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -73,6 +106,16 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\neobisWeek3" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+    </option>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -81,7 +124,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691310836570</updated>
-      <workItem from="1691310837596" duration="5513000" />
+      <workItem from="1691310837596" duration="7405000" />
+      <workItem from="1691346564061" duration="2005000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1691310980300</created>
@@ -97,7 +141,21 @@
       <option name="project" value="LOCAL" />
       <updated>1691334594017</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Create task week3 part2_2">
+      <created>1691344312398</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691344312398</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Delete task week3 part2_2">
+      <created>1691344550664</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691344550664</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,15 +175,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="Completed task week3 part2_1 (helloworld.jar )" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed task week3 part2_1 (helloworld.jar )" />
+    <MESSAGE value="Create task week3 part2_2" />
+    <MESSAGE value="Delete task week3 part2_2" />
+    <MESSAGE value="Фввув task week3 part2_2" />
+    <MESSAGE value="Added task week3 part2_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added task week3 part2_2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/part2_2/src/main/java/kg/neobis/Main.java</url>
+          <url>file://$PROJECT_DIR$/ttt/src/main/java/kg/neobis/Main.java</url>
           <line>15</line>
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
