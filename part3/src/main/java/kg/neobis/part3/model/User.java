@@ -21,6 +21,7 @@ public class User {
     String lastName;
     String email;
     String phone;
+    //Добавить роль, возможно через ENUM ??
     @OneToOne(cascade = CascadeType.ALL)
     Basket basket;
 }

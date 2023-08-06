@@ -25,5 +25,5 @@ public class Product {
     Category category;
     @ManyToOne
     @JoinColumn(name = "basket_id",referencedColumnName = "id")
-    private Basket basket;
+     Basket basket;
 }

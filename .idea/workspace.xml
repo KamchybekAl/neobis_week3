@@ -9,12 +9,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a223df69-b700-47ea-aa39-026b202fca15" name="Changes" comment="Week3 part3 added entity and creat DB with tables with connections">
-      <change afterPath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/repository/CategoryRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/repository/OrderRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/repository/BasketRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/repository/BasketRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/repository/ProductRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/repository/ProductRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/repository/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/repository/UserRepo.java" afterDir="false" />
+    <list default="true" id="a223df69-b700-47ea-aa39-026b202fca15" name="Changes" comment="Week3 part3 added repository JPA">
+      <change afterPath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/mapper/ProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/model/dto/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7f5e6560-24a8-4814-b41b-bb30a2ba3b6a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7f5e6560-24a8-4814-b41b-bb30a2ba3b6a.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7f5e6560-24a8-4814-b41b-bb30a2ba3b6a/storage_v2/_src_/database/week3.v168Bg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7f5e6560-24a8-4814-b41b-bb30a2ba3b6a/storage_v2/_src_/database/week3.v168Bg/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part3/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/part3/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -104,7 +111,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.29885057",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -118,6 +125,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="kg.neobis.part3.service.impl" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\user\IdeaProjects\neobisWeek3" />
     </key>
@@ -196,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691352927090</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Week3 part3 added repository JPA">
+      <created>1691353483036</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1691353483036</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +240,8 @@
     <MESSAGE value="Completed task week3 part2_2" />
     <MESSAGE value="Added task week3 part3" />
     <MESSAGE value="Week3 part3 added entity and creat DB with tables with connections" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week3 part3 added entity and creat DB with tables with connections" />
+    <MESSAGE value="Week3 part3 added repository JPA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Week3 part3 added repository JPA" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
