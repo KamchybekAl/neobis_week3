@@ -9,19 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a223df69-b700-47ea-aa39-026b202fca15" name="Changes" comment="Week3 part3 added repository JPA">
-      <change afterPath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/mapper/ProductMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/model/dto/ProductDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/service/impl/ProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7f5e6560-24a8-4814-b41b-bb30a2ba3b6a.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7f5e6560-24a8-4814-b41b-bb30a2ba3b6a.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7f5e6560-24a8-4814-b41b-bb30a2ba3b6a/storage_v2/_src_/database/week3.v168Bg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7f5e6560-24a8-4814-b41b-bb30a2ba3b6a/storage_v2/_src_/database/week3.v168Bg/schema/public.abK9xQ.meta" afterDir="false" />
+    <list default="true" id="a223df69-b700-47ea-aa39-026b202fca15" name="Changes" comment="Completed week3 part3, API endpoint &quot;Product save&quot; created, tested on Postman, JSON format file added to test.txt">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part3/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/part3/src/main/java/kg/neobis/part3/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/part3/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/part3/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/part1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/part1/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +29,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="PUSH_TAGS">
       <GitPushTagMode>
         <option name="argument" value="--tags" />
@@ -213,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691353483036</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Completed week3 part3, API endpoint &quot;Product save&quot; created, tested on Postman, JSON format file added to test.txt">
+      <created>1691360073844</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1691360073844</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,7 +241,8 @@
     <MESSAGE value="Added task week3 part3" />
     <MESSAGE value="Week3 part3 added entity and creat DB with tables with connections" />
     <MESSAGE value="Week3 part3 added repository JPA" />
-    <option name="LAST_COMMIT_MESSAGE" value="Week3 part3 added repository JPA" />
+    <MESSAGE value="Completed week3 part3, API endpoint &quot;Product save&quot; created, tested on Postman, JSON format file added to test.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed week3 part3, API endpoint &quot;Product save&quot; created, tested on Postman, JSON format file added to test.txt" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
