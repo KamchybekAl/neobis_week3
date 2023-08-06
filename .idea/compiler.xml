@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="part1" />
         <module name="part2_1" />
+        <module name="part2_2_foobar" />
       </profile>
     </annotationProcessing>
   </component>

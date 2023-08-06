@@ -7,8 +7,19 @@
         <option value="$PROJECT_DIR$/part1/pom.xml" />
         <option value="$PROJECT_DIR$/part2_1/pom.xml" />
         <option value="$PROJECT_DIR$/part2_2/pom.xml" />
+        <option value="$PROJECT_DIR$/ttt/pom.xml" />
+        <option value="$PROJECT_DIR$/part2_2_foobar/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/part2_2/pom.xml" />
+        <option value="$PROJECT_DIR$/ttt/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="PWA">
+    <option name="wasEnabledAtLeastOnce" value="true" />
   </component>
   <component name="ProjectRootManager">
     <output url="file://$PROJECT_DIR$/out" />
